@@ -4,11 +4,13 @@
 #include <stdio.h>
 #include <iostream>
 
-#include "BoardGenerator.h"
+#include "Board.h"
 
 int main( int argc, char* argv[] )
 {
-	BoardGenerator::generate_board();
+	board_t board;
+
+	board.generate_board();
 
 	return 0;
 }
