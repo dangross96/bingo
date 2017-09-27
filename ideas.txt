@@ -1,0 +1,13 @@
+- Probability of Bingo positions
+- Average Number of calls to win Bingo game
+- Best positions to win
+
+Board Generator:
+	- generateBoard():
+		print board to screen (For now), randomly assigned number
+
+Bingo Solver:
+	- Generate random unique number between 1 and 75
+	- If number matches number in a vector, replace 'X' in vector
+	- Redraw bingo card
+	- Repeat until victory
