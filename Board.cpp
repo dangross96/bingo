@@ -2,7 +2,7 @@
 
 Board::Board()
 {
-	
+	generate_board();
 }
 
 void Board::generate_board()

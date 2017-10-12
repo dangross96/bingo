@@ -10,7 +10,5 @@ int main( int argc, char* argv[] )
 {
 	board_t board;
 
-	board.generate_board();
-
 	return 0;
 }
